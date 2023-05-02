@@ -1,1 +1,4 @@
-
+FROM node
+WORKDIR /app
+ADD . /app
+EXPOSE 4200
