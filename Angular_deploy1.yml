@@ -51,6 +51,8 @@
       command: sudo npm install -g @angular/cli
     - name: Install npm project dependencies
       command: npm install
+    - name: npm init
+      command: npm init
    #   args:
    #   command: chdir "{{ dest_path }}"
     - name: Install PM2
