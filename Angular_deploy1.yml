@@ -51,8 +51,8 @@
       command: sudo npm install -g @angular/cli
     - name: Install npm project dependencies
       command: npm install
-      args:
-      command: chdir "{{ dest_path }}"
+   #   args:
+   #   command: chdir "{{ dest_path }}"
     - name: Install PM2
       npm: name=pm2 global=yes state=present
     - name: Get Forever's list of running processes
